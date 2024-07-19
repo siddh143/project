@@ -1,0 +1,88 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for body and headers */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f0f0;
+    color: #333;
+  }
+  
+  header, footer {
+    background-color: #0f0702;
+    color: #f3f3f1;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  /* Styling for sections */
+  section {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styling for projects section */
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    color: #333;
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .project a:hover {
+    background-color: #ccc;
+  }
+  
+  /* Styling for contact section */
+  #contact p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
